@@ -1,2 +1,4 @@
-Photo by <a href="https://unsplash.com/@misszicke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ines Blohm</a> on <a href="https://unsplash.com/wallpapers/art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-for Navbar Icon https://formito.com/tools/favicon
+for Icon and svgs 
+    https://formito.com/tools/favicon
+    https://icons.getbootstrap.com/
+

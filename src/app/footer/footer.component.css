@@ -1,7 +1,16 @@
 footer {
     position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
     bottom: 0;
     background-color: rgb(0, 0, 0);
     height: 4rem;
     width: 100vw;
 }
+
+.social-links span svg:hover{
+    cursor: pointer;
+}
+
