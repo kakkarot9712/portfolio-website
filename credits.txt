@@ -1,4 +1,12 @@
-for Icon and svgs 
-    https://formito.com/tools/favicon
-    https://icons.getbootstrap.com/
+for Icons and svgs 
 
+brand-icon = https://formito.com/tools/favicon
+all (mostly) other svgs = https://icons.getbootstrap.com/
+
+
+for CSS Terminal Text Effect
+
+https://www.sliderrevolution.com/resources/css-text-animation/
+developer: Tobias 
+(available for vannila js, tweaked the code slightly to make it work in angular,
+CSS properties are also tweaked accordingly)

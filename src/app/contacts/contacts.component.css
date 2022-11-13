@@ -1,0 +1,94 @@
+#contacts,
+#socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    height: 100%;
+    padding-top: 3rem;
+}
+
+.color-text {
+    color: #ce2a56;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.contact {
+    display: flex;
+    align-self: flex-start;
+    margin: 1rem 0;
+}
+
+.svg-back {
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 2.8rem;
+    height: 2.8rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.svg-back svg{
+    fill: #ce2a56;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#contacts a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.social {
+    margin: 0 1rem;
+    padding: 0;
+}
+
+@media screen and (max-width: 470px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding-top: 2rem;
+    }
+
+    #contacts a {
+        color: white;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #contacts a {
+        font-size: 1rem;
+    }
+
+    .svg-back{
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+
+    .svg-back svg{
+        height: 1rem;
+        width: 1rem;
+    }
+}

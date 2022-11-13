@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     width: 100vw;
     height: 4.5rem;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(10px);
     z-index: 5;
 }
 
