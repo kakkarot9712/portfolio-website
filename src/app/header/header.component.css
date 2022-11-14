@@ -10,12 +10,12 @@ header {
     top: 0;
     left: 0;
     align-items: center;
-    background-color: rgba(22, 0, 28, 0.4);
+    background-color: #420965d8;
+    backdrop-filter: blur(10px);
     padding: 0 0.8rem;
     justify-content: space-between;
     width: 100vw;
     height: 4.5rem;
-    backdrop-filter: blur(10px);
     z-index: 5;
 }
 

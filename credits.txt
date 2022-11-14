@@ -1,8 +1,10 @@
 for Icons and svgs 
 
 brand-icon = https://formito.com/tools/favicon
-all (mostly) other svgs = https://icons.getbootstrap.com/
 
+all (mostly) other svgs = 
+https://icons.getbootstrap.com/
+https://www.svgrepo.com/svg/
 
 for CSS Terminal Text Effect
 
@@ -10,3 +12,6 @@ https://www.sliderrevolution.com/resources/css-text-animation/
 developer: Tobias 
 (available for vannila js, tweaked the code slightly to make it work in angular,
 CSS properties are also tweaked accordingly)
+
+
+<a target="_blank" href="https://icons8.com/icon/40670/c-programming">C Programming</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
