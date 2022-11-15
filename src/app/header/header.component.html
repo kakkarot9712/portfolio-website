@@ -9,8 +9,8 @@
             <img src="../../assets/brand.png" alt="Brand Logo" class="header-brand__logo">
         </a>
     </div>
-    <div class="backdrop" #backdrop sideMenu>
-        <nav class="mobile-nav">
+    <div class="backdrop" #backdrop [sideMenu]="mobileNav">
+        <nav class="mobile-nav" #mobileNav>
             <ul class="mobile-nav__items">
                 <li class="mobile-nav__item">
                     <a routerLink="/home">

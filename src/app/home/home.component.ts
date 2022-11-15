@@ -11,6 +11,8 @@ import { CommonModule } from '@angular/common';
 export class HomeComponent implements OnInit, AfterViewInit {
   @ViewChild('console')con: ElementRef
   @ViewChild('text')textCont: ElementRef
+  @ViewChild('consoleContainer')consContainer: ElementRef
+  
   targetText = ""
   constructor(private renderer: Renderer2) { }
 
@@ -27,7 +29,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
     let x = 1;
     let waiting = false;
     let target = id.nativeElement
-    console.log(target)
     this.renderer.setStyle(target, 'color', colors[0])
     
     setInterval(() => {
@@ -77,8 +78,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
   ngAfterViewInit(): void {
     console.log(this.textCont)
-    this.consoleText(['Hello World.', 'Console Text', 'Made with Love'], 
-                    this.textCont ,
-                    ['tomato','rebeccapurple','lightblue'])
+    this.consoleText(
+      ['Front End Web Developer', 'Engineer', 'Quick Learner'],
+      this.textCont ,
+      ['#ce2a56']
+    )
   }
 }

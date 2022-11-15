@@ -15,6 +15,7 @@ section {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 0 0.5rem;
+    padding-top: 3rem;
 }
 
 h1 {
@@ -44,8 +45,12 @@ h1 {
     align-items: center;
     font-size: 3rem;
     font-weight: bold;
-    width: 600px;
+    width: 800px;
     color: white;
+}
+
+#text {
+    text-align: center;
 }
 
 .console-underscore {
@@ -56,7 +61,6 @@ h1 {
 }
 
 .image-container {
-    /* min-height: 35rem; */
     width: 35rem;
     height: 35rem;
     background-color: aqua;
@@ -76,7 +80,6 @@ h1 {
 
 .description__text{
     display: flex;
-    /* flex-wrap: nowrap; */
     flex-direction: column;
     align-items: center;
     width: 40%;
@@ -139,11 +142,20 @@ h1 {
 #contacts h1 {
     text-align: center;
     padding: 0 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 850px) {
     #description {
         flex-direction: column;
+    }
+    .image-container {
+        margin-top: 1rem;
+    }
+
+    .console-container {
+        font-size: 2.5rem;
+        width: 600px;
     }
 }
 
@@ -151,14 +163,21 @@ h1 {
 @media screen and (max-width: 650px) {
     .image-container{
         transform: scale(0.8);
+        min-width: 560px;
+    }
+
+    .console-container {
+        margin-top: 2rem;
+        font-size: 2rem;
+        width: 450px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
     }
 }
 
 @media screen and (max-width: 470px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
     section {
         margin: auto;
         padding-top: 2rem;
@@ -180,9 +199,10 @@ h1 {
     }
 
     .console-container {
-        margin-top: 2rem;
-        font-size: 2rem;
-        width: 300px;
+        display: none;
+        /* margin-top: 2rem;
+        font-size: 1.9rem;
+        width: 400px; */
     }
 }
 
