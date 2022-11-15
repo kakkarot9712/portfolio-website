@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, Renderer2, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { trigger, state, transition } from '@angular/animations';
 
 import { sideMenuDirective } from '../shared/side-menu.directive';
 import { AppComponent } from '../app.component';

@@ -1,0 +1,42 @@
+section {
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+section a {
+    color: white;
+    font: inherit;
+    font-size: large;
+    text-decoration: none;
+    background-color: #ce2a56;
+    display: inline-block;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+section a:hover,
+section a:active {
+    background-color: #811d37;
+    cursor: pointer;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.canvas_container{
+    margin: 2rem 0;
+}
+
+canvas {
+    width: 65%;
+    max-width: 651px;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    canvas{
+        width: 95%;
+    }
+}
