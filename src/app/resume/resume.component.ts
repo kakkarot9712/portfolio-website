@@ -27,17 +27,15 @@ export class ResumeComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
 
     // The workerSrc property shall be specified.
-    fromPdfJslib.GlobalWorkerOptions.workerSrc='../assets/JS/pdf.worker.js'
+    fromPdfJslib.GlobalWorkerOptions.workerSrc='//cdn.jsdelivr.net/npm/pdfjs-dist@3.0.279/build/pdf.worker.js'
     
     // Asynchronous download of PDF
     let loadingtask = fromPdfJslib.getDocument(this.url)
     loadingtask.promise.then((pdf)=>{
-      console.log('pdf loaded')
 
       // Fetch the first page
       let pageNumber = 1
       pdf.getPage(pageNumber).then((page)=>{
-        console.log('page loaded')
         let scale = 1
         let viewport = page.getViewport({scale: scale})
         // scale = this.canvasContainer.nativeElement.clientWidth / (viewport.width)
@@ -57,7 +55,6 @@ export class ResumeComponent implements OnInit, AfterViewInit {
 
         let renderTask = page.render(renderContext)
         renderTask.promise.then(()=>{
-          console.log('page rendered')
         })
       }) 
     }, (reason)=>{
