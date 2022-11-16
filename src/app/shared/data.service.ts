@@ -13,10 +13,12 @@ export interface ProjectData {
 @Injectable({providedIn: 'root'})
 
 export class DataService {
+    private skillsets = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Angular', 'ReactJS', 'Python', 'C Language' ]
+    private tools = ['VS Code', 'IntelliJ Idea', 'GitHub', 'Replit', 'Codepen', 'Firebase', 'Postman']
     private PROJECTS: ProjectData[] = [{
         project_name: 'TODO App',
         project_description: "In this app, user can add tasks, can mark as important or completed and can delete task. This app stores data inside local storage and user even can use cloud mode.",
-        project_img_path: '../assets/todoapp.png',
+        project_img_path: '../assets/imgs/todoapp.png',
         project_languages: 'HTML | CSS | BOOTSTRAP | ANGULAR',
         project_url: 'https://todoapp-ee61f.web.app/todo',
         project_sourcecode: 'https://github.com/kakkarot9712/ToDoApp'
@@ -24,5 +26,13 @@ export class DataService {
 
     getProjects(){
         return this.PROJECTS.slice()
+    }
+
+    getSkillSet(){
+        return this.skillsets.slice()
+    }
+
+    getTools(){
+        return this.tools.slice()
     }
 }

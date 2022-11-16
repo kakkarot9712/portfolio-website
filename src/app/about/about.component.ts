@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DataService } from '../shared/data.service';
 
 @Component({
   selector: 'app-about',
@@ -9,10 +10,21 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
-  constructor() { }
+  skillsets: string[]
+  tools: string[]
+  constructor(private dataservice: DataService) { }
 
   ngOnInit(): void {
+    this.skillsets = this.dataservice.getSkillSet()
+    this.tools = this.dataservice.getTools()
   }
 
+  formatName(str: string){
+    return str.toLowerCase().replace(' ', '-')
+  }
+
+  getPath(str: string){
+    let formattedName = this.formatName(str)
+    return `../../assets/svgs/${formattedName}.svg`
+  }
 }
