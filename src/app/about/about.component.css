@@ -28,9 +28,15 @@ svg {
 
 .who-am-i {
     padding-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .who-am-i__info {
@@ -56,34 +62,61 @@ svg {
 }
 
 .skillsets {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .skillsets__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .skillset__box {
     border: 2px solid rgb(207, 42, 86);
     padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 14rem;
     height: 14rem;
     margin: 1rem 0.5rem;
-    box-shadow: 1px 1px 1px rgba(207, 42, 86);
+    -webkit-box-shadow: 1px 1px 1px rgba(207, 42, 86);
+            box-shadow: 1px 1px 1px rgba(207, 42, 86);
+    -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    -o-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
 }
 
 .skillset__box:hover{
-    box-shadow: 1px 1px 1px 2px rgba(207, 42, 86);
-    transform: scale(1.05);
+    -webkit-box-shadow: 1px 1px 1px 2px rgba(207, 42, 86);
+            box-shadow: 1px 1px 1px 2px rgba(207, 42, 86);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 .svg-skill {
@@ -103,7 +136,10 @@ svg {
 
 @media screen and (max-width: 930px) {
     .who-am-i {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .who-am-i__info {
@@ -130,8 +166,11 @@ svg {
 
 @media screen and (max-width: 392px) {
     .skillsets__info {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
 
     }
 
