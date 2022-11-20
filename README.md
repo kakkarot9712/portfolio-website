@@ -60,7 +60,7 @@ ng serve
 
 ## Credits
 
-* [Mozzila](https://github.com/mozilla/pdf.js) for pdf.js module. [Go Here](https://mozilla.github.io/pdf.js/examples/#) for Example codes of How to use pdf.js
+* [Mozilla](https://github.com/mozilla/pdf.js) for pdf.js module. [Go Here](https://mozilla.github.io/pdf.js/examples/#) for Example codes of How to use pdf.js
 * [Tobias](https://www.sliderrevolution.com/resources/css-text-animation/) for CSS Terminal Text Effect
 * [formito.com](https://formito.com/tools/favicon) For Brand Icon
 * [Bootstrap SVGs](https://icons.getbootstrap.com/) for Svg icons
