@@ -3,6 +3,7 @@ My portfolio Website made using HTML, CSS and Angular
 <br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 <br>
+<br>
 Note: This website uses Angular's standalone component implimentation. So source code of this project will not work with older version of Angular.
 
 ## Description
@@ -25,13 +26,15 @@ Deployed using [Firebase](https://firebase.google.com/)
   <summary>Click to see screenshots</summary>
   <br>
   Desktop Version
-  <img src='/src/assets/desktop-home.png'></img>
-  <img src='/src/assets/desktop-skills.png'></img>
-
+  <br>
+  <img src='/src/assets/imgs/home-desktop.png'></img>
+  <img src='/src/assets/imgs/desktop-skills.png'></img>
+  <br>
   Mobile version
-  <img src='/src/assets/mobile-home.png'></img>
-  <img src='/src/assets/mobile-tools.png'></img>
-  <img src='/src/assets/mobile-navbar.png'></img>
+  <br>
+  <img src='/src/assets/imgs/mobile-home.jpg'></img>
+  <img src='/src/assets/imgs/mobile-tools.jpg'></img>
+  <img src='/src/assets/imgs/mobile-navbar.jpg'></img>
 </details>
 
 ## Getting Started
