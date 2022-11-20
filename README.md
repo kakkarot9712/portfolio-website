@@ -66,3 +66,4 @@ ng serve
 * [Bootstrap SVGs](https://icons.getbootstrap.com/) for Svg icons
 * [svgrepo.com](https://www.svgrepo.com/svg/) for svg icons
 * [icon8.com](https://icons8.com/icon/40670/c-programming) for C Language svg icon
+* [Autoprefixer](https://autoprefixer.github.io/) for fetching vendor prefixed CSS Rules.
