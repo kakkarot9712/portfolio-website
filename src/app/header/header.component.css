@@ -74,6 +74,11 @@ svg {
     list-style: none;
 }
 
+.mobile-nav__items {
+    margin-top: 3rem;
+    height: 80%;
+}
+
 .main-nav__item,
 .mobile-nav__item {
     font-size: 1.2rem;
@@ -163,7 +168,6 @@ svg {
     left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     color: white;
     align-items: center;
     width: 70%;

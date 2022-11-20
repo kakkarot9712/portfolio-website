@@ -1,27 +1,65 @@
-# Portfolio
-
+# Portfolio Website
+My portfolio Website made using HTML, CSS and Angular
+<br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+<br>
+Note: This website uses Angular's standalone component implimentation. So source code of this project will not work with older version of Angular.
 
-## Development server
+## Description
+This portfolio website contains all key details about me including languages I know, project I made and contact information, etc
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Demo
 
-## Code scaffolding
+Here is the [Demo of website](https://portfolio1297.web.app/home) 
+<br>
+Deployed using [Firebase](https://firebase.google.com/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Built With
 
-## Build
+* <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+* <img src="https://img.shields.io/badge/HTML5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+* <img src="https://img.shields.io/badge/CSS3-1572B6?&style=for-the-badge&logo=css3&logoColor=white" />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Screenshots
+<details>
+  <summary>Click to see screenshots</summary>
+  <br>
+  Desktop Version
+  <img src='/src/assets/desktop-home.png'></img>
+  <img src='/src/assets/desktop-skills.png'></img>
 
-## Running unit tests
+  Mobile version
+  <img src='/src/assets/mobile-home.png'></img>
+  <img src='/src/assets/mobile-tools.png'></img>
+  <img src='/src/assets/mobile-navbar.png'></img>
+</details>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+### Prerequisites
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1) [Angular CLI v14.2.1 and UP](https://angular.io/)
+2) [Node.js v16.17.0 and UP](https://nodejs.org/en/) (LTS Version Recommanded) 
 
-## Further help
+### Installing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If anyone wants to test this project, user can do so by following below instruction.
+
+* Download source code and extract anywhere into the PC.
+* Open Terminal where project is extracted and then run following command 
+```
+npm install 
+```
+* After npm installs all dependency, user can run below command to see project in action.
+```
+ng serve
+```
+
+## Credits
+
+* [Mozzila](https://github.com/mozilla/pdf.js) for pdf.js module. [Go Here](https://mozilla.github.io/pdf.js/examples/#) for Example codes of How to use pdf.js
+* [Tobias](https://www.sliderrevolution.com/resources/css-text-animation/) for CSS Terminal Text Effect
+* [formito.com](https://formito.com/tools/favicon) For Brand Icon
+* [Bootstrap SVGs](https://icons.getbootstrap.com/) for Svg icons
+* [svgrepo.com](https://www.svgrepo.com/svg/) for svg icons
+* [icon8.com](https://icons8.com/icon/40670/c-programming) for C Language svg icon

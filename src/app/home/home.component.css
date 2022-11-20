@@ -60,14 +60,6 @@ h1 {
     left: 10px;
 }
 
-.image-container {
-    width: 35rem;
-    height: 35rem;
-    background-color: aqua;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
 #description {
     display: flex;
     justify-content: space-evenly;
@@ -149,9 +141,6 @@ h1 {
     #description {
         flex-direction: column;
     }
-    .image-container {
-        margin-top: 1rem;
-    }
 
     .console-container {
         font-size: 2.5rem;
@@ -161,11 +150,7 @@ h1 {
 
 
 @media screen and (max-width: 650px) {
-    .image-container{
-        transform: scale(0.8);
-        min-width: 560px;
-    }
-
+    
     .console-container {
         margin-top: 2rem;
         font-size: 2rem;
@@ -188,10 +173,6 @@ h1 {
         font-size: 1.2rem;
     }
 
-    .image-container{
-        transform: scale(0.6);
-    }
-
     .description__text{
         width: 100%;
         padding: 0 0.5rem;
@@ -199,22 +180,17 @@ h1 {
     }
 
     .console-container {
-        display: none;
-        /* margin-top: 2rem;
-        font-size: 1.9rem;
-        width: 400px; */
+        font-size: 1.7rem;
+        width: 370px;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }
 
 
-@media screen and (max-width: 350px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    .image-container{
-        transform: scale(0.45);
-    }
+@media screen and (max-width: 361px) {
 
     #contacts a {
         font-size: 1rem;
@@ -228,5 +204,23 @@ h1 {
     .svg-back svg{
         height: 1rem;
         width: 1rem;
+    }
+
+    .console-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+
+    .avatar svg {
+        height: 250px;
+        width: 250px;
     }
 }

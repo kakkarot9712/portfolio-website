@@ -33,13 +33,18 @@ h2, p {
     width: 100%;
 }
 
-.project__card {
+.project__card, 
+.portfolio-info {
     width: 25rem;
     margin: 1rem;
     padding: 1.5rem;
     text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(207, 42, 86, 0.8);
     border: #ce2a56 2px solid;
+}
+
+.portfolio-info {
+    width: 100%;
 }
 
 .project__img {
@@ -88,6 +93,13 @@ svg {
     transform: scale(1.05);
 }
 
+.portfolio-repo {
+    display: inline-block;
+    background-color: #ce2a56;
+    padding: 3px;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 2rem;
@@ -115,6 +127,7 @@ svg {
         padding: 1rem;
     }
 }
+
 
 @media screen and (max-width: 400px) {
     
