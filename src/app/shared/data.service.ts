@@ -13,7 +13,7 @@ export interface ProjectData {
 @Injectable({providedIn: 'root'})
 
 export class DataService {
-    private skillsets = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Angular', 'ReactJS', 'Python', 'C Language' ]
+    private skillsets = ['Angular', 'JavaScript', 'Bootstrap', 'HTML', 'CSS', 'Python', 'C Language' ]
     private tools = ['VS Code', 'IntelliJ Idea', 'GitHub', 'Replit', 'Codepen', 'Firebase', 'Postman']
     private PROJECTS: ProjectData[] = [
     {
@@ -28,15 +28,15 @@ export class DataService {
         project_name: 'Expense Tracker',
         project_description: "User can add and track expenses with support for graphical visualization and comparison of monthly expenses.This app also supports storing data locally and thus it will retain data after refresh.",
         project_img_path: '../assets/imgs/expense-tracker.png',
-        project_languages: 'HTML | CSS | ANGULAR (TypeScript)',
+        project_languages: 'HTML | CSS | ANGULAR',
         project_url: 'https://id11297.web.app/home',
         project_sourcecode: 'https://github.com/kakkarot9712/Expense-Tracker'
     },
     {
         project_name: 'Tic-Tac-Toe',
-        project_description: "Just simple Tic-tac-toe game with few small features including capability of changing name. Note:- This app is part of WebAppsCollection Project",
+        project_description: "Just simple Tic-tac-toe game with few small features including capability of changing name.  Note:- This app is part of WebAppsCollection Project",
         project_img_path: '../assets/imgs/tic-tac-toe.png',
-        project_languages: 'HTML | CSS | BOOTSTRAP | ANGULAR (TypeScript)',
+        project_languages: 'HTML | CSS | BOOTSTRAP | ANGULAR',
         project_url: 'https://webappscollection.web.app/tic-tac-toe',
         project_sourcecode: 'https://github.com/kakkarot9712/WebAppsCollection'
     },
@@ -44,7 +44,7 @@ export class DataService {
         project_name: 'News Feed',
         project_description: "In this website, User can search for Latest headlines in multiple supported category or user can search news with custom params, This app is also part of WebAppsCollection Project",
         project_img_path: '../assets/imgs/news-feed-home.png',
-        project_languages: 'HTML | CSS | BOOTSTRAP | ANGULAR (TypeScript)',
+        project_languages: 'HTML | CSS | BOOTSTRAP | ANGULAR',
         project_url: 'https://webappscollection.web.app/newsfeed',
         project_sourcecode: 'https://github.com/kakkarot9712/WebAppsCollection'
     },

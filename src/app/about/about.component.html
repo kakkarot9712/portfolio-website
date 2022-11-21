@@ -155,7 +155,7 @@
                         </g>
                     </svg>
                 </span>
-                Research about lates Tech
+                Research about latest Tech
             </li>
             <li class="who-am-i__activity">
                 <span class="svg-back">
@@ -177,7 +177,7 @@
     <div class="skillsets__info">
         <div class="skillset__box" *ngFor="let skill of skillsets">
             <span class="svg-skill">
-                <img [src]='getPath(skill)' alt='{{ formatName(skill)+"-logo"}}'>
+                <img [src]='getPath(skill)' [alt]='formatName(skill)+"-logo"'>
             </span>
             <p class="more-size"> {{ skill }}
             <p>
