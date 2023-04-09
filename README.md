@@ -1,3 +1,10 @@
+# Note
+### This is source of my old portfolio website made using Angular, But as I am now maintaining portfoli project in ReactJs, this project is no longer maintained and That's why I am archiving this project.
+
+This project is for demonstration purposes only.
+
+Access latest sources of my portfolio [here](https://github.com/kakkarot9712/portfolio)
+
 # Portfolio Website
 My portfolio Website made using HTML, CSS and Angular
 <br>
